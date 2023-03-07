@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This repository have been created to practice the use of git and github. The main objective is to learn how to use git and github to collaborate with other developers.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
