@@ -1,0 +1,31 @@
+{
+  "name": "pull-request",
+  "version": "1.0.0",
+  "description": "This repository have been created to practice the use of git and github. The main objective is to learn how to use git and github to collaborate with other developers.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASJordi/pull-request.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASJordi/pull-request/issues"
+  },
+  "homepage": "https://github.com/ASJordi/pull-request#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "standard": "^17.0.0"
+  },
+  "eslintConfig": {
+    "extends": "standard",
+    "rules": {
+      "semi": [2, "always"]
+    }
+  }
+}
