@@ -1,4 +1,4 @@
-import { getProducts } from './obtenerProductos.js';
+import { getProducts } from './getProducts.js';
 
 async function main () {
   const products = await getProducts();
